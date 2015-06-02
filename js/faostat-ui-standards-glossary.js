@@ -10,7 +10,7 @@ define(['jquery',
 
     'use strict';
 
-    function MENU() {
+    function GLOSSARY() {
 
         this.CONFIG = {
 
@@ -24,7 +24,7 @@ define(['jquery',
 
     }
 
-    MENU.prototype.init = function(config) {
+    GLOSSARY.prototype.init = function(config) {
 
         /* Extend default configuration. */
         this.CONFIG = $.extend(true, {}, this.CONFIG, config);
@@ -43,10 +43,10 @@ define(['jquery',
 
     };
 
-    MENU.prototype.destroy = function() {
+    GLOSSARY.prototype.destroy = function() {
 
     };
 
-    return MENU;
+    return GLOSSARY;
 
 });
